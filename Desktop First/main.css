@@ -1,0 +1,24 @@
+.column {
+    float:left;
+    width: 30%;
+    height: 50px;
+    background-color: #000;
+    margin: 10px;
+}
+
+@media (max-width: 991px){
+    .column {
+        background-color: blue;
+        height: 100%;
+        margin: 30px;
+    }
+}
+
+@media (max-width: 767px){
+    .column {
+        background-color: violet;
+        width: 100%;
+        margin: 10px;
+        border-radius:30px;
+    }
+}
